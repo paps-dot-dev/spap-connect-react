@@ -1,13 +1,14 @@
-import React from "react";
+import React from 'react';
 
 const RootLayout = ({ children }) => {
-  return (
-    <div className="bg-black min-h-screen">
-      <header></header>
-      <main className="flex flex-col">{children}</main>
-      <footer></footer>
-    </div>
-  );
+	return (
+		<div className="bg-gradient-to-b from-black to-slate-900 min-h-screen ">
+			<main className="flex flex-col items-center text-white max-w-screen-sm mx-auto">
+				{children}
+			</main>
+			<footer></footer>
+		</div>
+	);
 };
 
 export default RootLayout;
