@@ -23,14 +23,13 @@ const NewsletterForm = () => {
 	}, []);
 	return (
 		<section className="mt-8 text-xl font-semibold mx-8">
-			<p>Subscribe to My Newsletter!</p>
 			<iframe
+				className="rounded-xl m-0 bg-transparent lg:h-96 h-64 "
 				ref={iframeRef}
-				src="https://embeds.beehiiv.com/ad31a6a5-6362-488a-a30a-bd035dfb2d2b?slim=true"
+				src="https://embeds.beehiiv.com/9c5c31bb-b0c2-48c0-a263-285a6f785911"
 				data-test-id="beehiiv-embed"
-				frameborder="0"
-				height="52"
-				style={{ width: `${screenWidth / 1.2}px` }}></iframe>
+				width={screenWidth}
+				frameborder="0"></iframe>
 		</section>
 	);
 };

@@ -2,9 +2,9 @@ import React from 'react';
 
 const ProfileCircle = () => {
 	return (
-		<div className="mt-4 flex flex-col items-center">
+		<div className=" flex flex-col items-center">
 			<div
-				className="w-36 h-36 rounded-full border-2 border-indigo-500 flex flex-col justify-center items-center"
+				className="w-32 h-32 rounded-full border-2 border-indigo-500 flex flex-col justify-center items-center"
 				id="profile-pic">
 				<img
 					className="w-full h-full object-cover rounded-full"

@@ -18,7 +18,7 @@ const TabSelectorContainer = () => {
 	};
 
 	return (
-		<div className="w-screen max-w-screen-2xl">
+		<div className="w-screen max-w-screen-xl">
 			<TabSelector activeScreen={activeScreen} changeScreen={changeScreen} />
 			{screens[activeScreen]}
 		</div>
