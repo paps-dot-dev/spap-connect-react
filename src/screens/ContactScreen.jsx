@@ -1,5 +1,6 @@
 import React from 'react';
 import SocialButton from '../components/SocialButton';
+import ContactForm from '../components/ContactForm';
 
 const ContactScreen = () => {
 	return (
@@ -27,6 +28,7 @@ const ContactScreen = () => {
 					}}
 				/>
 			</div>
+			<ContactForm />
 		</div>
 	);
 };
