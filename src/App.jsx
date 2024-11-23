@@ -1,17 +1,19 @@
 import { useState } from 'react';
 
 import RootLayout from './layout/RootLayout';
-import ProfileCircle from './components/ProfileCircle';
-import SocialsContainer from './components/SocialsContainer';
-import TabSelectorContainer from './components/TabSelectorContainer';
-import NewsletterForm from './components/NewsletterForm';
-import { FaCaretDown } from 'react-icons/fa';
-import { FaCircleArrowDown, FaCircleArrowUp } from 'react-icons/fa6';
+import LinkButton from './components/LinkButton';
 
 function App() {
 	const [isExpanded, setIsExpanded] = useState(false);
 	return (
 		<RootLayout>
+			<LinkButton
+				buttonText={'Subscribe to my Newsletter'}
+				thumbnailUrl={
+					'https://iiyjiikbtsckevydbcsj.supabase.co/storage/v1/object/public/website-assets/branding/logos/RiffsCodeCoffee.png'
+				}
+				linkUrl={'#'}
+			/>
 
 			{/*<img*/}
 			{/*	className="w-24 ml-auto m-4 p-1 opacity-50"*/}

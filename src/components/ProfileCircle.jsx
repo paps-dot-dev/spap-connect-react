@@ -13,11 +13,12 @@ const ProfileCircle = () => {
 			</div>
 			<div id="text-container">
 				<p className="text-xl font-bold text-center">Shawn Papineau</p>
-				<div className="flex justify-center items-center w-full gap-2 font-light">
-					<p>Founder</p>
+				<div className="flex justify-center items-center w-full gap-1 font-extralight text-sm">
+					<p>Developer</p>
 					<p>|</p>
-					<p>SPAP Technology Solutions</p>
+					<p>Founder</p>
 				</div>
+				<p className="text-xs">SPAP Technology Solutions</p>
 			</div>
 		</div>
 	);

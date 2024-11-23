@@ -1,9 +1,12 @@
 import React from 'react';
+import ProfileCircle from '../components/ProfileCircle';
 
 const RootLayout = ({ children }) => {
 	return (
-		<div className="bg-gradient-to-b from-black to-slate-900 min-h-screen flex flex-col justify-center items-center ">
-			<main className="flex flex-col items-center text-white max-w-screen-2xl mx-auto">
+		<div className="bg-gradient-to-b from-black to-slate-900 min-h-screen flex flex-col items-center p-5 ">
+			<ProfileCircle />
+
+			<main className="flex flex-col items-center text-white max-w-screen-2xl mx-auto p-5">
 				{children}
 			</main>
 			<footer className="p-4 flex flex-col justify-center items-center py-10 gap-8">
